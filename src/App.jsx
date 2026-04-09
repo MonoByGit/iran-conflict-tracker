@@ -622,9 +622,7 @@ function ArticleReader({ article, onClose }) {
     <div
       className="fixed inset-0 z-[100] flex flex-col"
       style={{
-        background: 'rgba(0,0,0,0.97)',
-        backdropFilter: 'blur(30px)',
-        WebkitBackdropFilter: 'blur(30px)',
+        background: '#000000',
       }}
     >
       {/* Reader header */}
